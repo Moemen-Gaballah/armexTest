@@ -1,0 +1,45 @@
+{
+	"id": "48b58841-8dfd-10d6-f414-0b12e875a8ee",
+	"name": "Armex",
+	"description": "",
+	"order": [
+		"2d0109fb-a743-9ee5-482a-6f82464b63d7"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1640021206195,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "2d0109fb-a743-9ee5-482a-6f82464b63d7",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://ws.dev.aramex.net/ShippingAPI.V2/Shipping/Service_1_0.svc/json/CreateShipments",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1640025749982,
+			"name": "AremxShipping",
+			"description": "",
+			"collectionId": "48b58841-8dfd-10d6-f414-0b12e875a8ee",
+			"responses": [],
+			"rawModeData": "{\r\n  \"ClientInfo\": {\r\n    \"AccountCountryCode\": \"JO\",\r\n    \"AccountEntity\": \"AMM\",\r\n    \"AccountNumber\": \"20016\",\r\n    \"AccountPin\": \"331421\",\r\n    \"UserName\": \"reem@reem.com\",\r\n    \"Password\": \"123456789\",\r\n    \"Version\": \"v1\",\r\n    \"Source\": 24\r\n  },\r\n  \"Transaction\": {\r\n    \"Reference1\": \"001\",\r\n    \"Reference2\": \"\",\r\n    \"Reference3\": \"\",\r\n    \"Reference4\": \"\",\r\n    \"Reference5\": \"\"\r\n  },\r\n  \"Shipment\": {\r\n    \"Shipper\":{\r\n      \"Reference1\":\"\",\r\n      \"Reference2\":\"\",\r\n      \"AccountNumber\":\"20016\",\r\n      \"PartyAddress\":{\r\n        \"Line1\":\"Test\",\r\n        \"Line2\":\"\",\r\n        \"Line3\":\"\",\r\n        \"City\":\"Amman\",\r\n        \"StateOrProvinceCode\":\"\",\r\n        \"PostCode\":\"\",\r\n        \"CountryCode\":\"\"\r\n      },\r\n      \"Contact\":{\r\n        \"Department\":\"\",\r\n        \"PersonName\":\"aramex\",\r\n        \"Title\":\"\",\r\n        \"CompanyName\":\"aramex\",\r\n        \"PhoneNumber1\":\"009625515111\",\r\n        \"PhoneNumber1Ext\":\"\",\r\n        \"PhoneNumber2\":\"\",\r\n        \"PhoneNumber2Ext\":\"\",\r\n        \"FaxNumber\":\"\",\r\n        \"CellPhone\":\"9677956000200\",\r\n        \"EmailAddress\":\"test@test.com\",\r\n        \"Type\":\"\"\r\n      }\r\n    },\r\n    \"Consignee\":{\r\n      \"Reference1\":\"\",\r\n      \"Reference2\":\"\",\r\n      \"AccountNumber\":\"\",\r\n      \"PartyAddress\":{\r\n        \"Line1\":\"Test\",\r\n        \"Line2\":\"\",\r\n        \"Line3\":\"\",\r\n        \"City\":\"Duabi\",\r\n        \"StateOrProvinceCode\":\"\",\r\n        \"PostCode\":\"\",\r\n        \"CountryCode\":\"AE\"\r\n      },\r\n      \"Contact\":{\r\n        \"Department\":\"\",\r\n        \"PersonName\":\"aramex\",\r\n        \"Title\":\"\",\r\n        \"CompanyName\":\"aramex\",\r\n        \"PhoneNumber1\":\"009625515111\",\r\n        \"PhoneNumber1Ext\":\"\",\r\n        \"PhoneNumber2\":\"\",\r\n        \"PhoneNumber2Ext\":\"\",\r\n        \"FaxNumber\":\"\",\r\n        \"CellPhone\":\"9627956000200\",\r\n        \"EmailAddress\":\"test@test.com\",\r\n        \"Type\":\"\"\r\n      }\r\n    },\r\n    \"ThirdParty\":{\r\n      \"Reference1\":\"\",\r\n      \"Reference2\":\"\",\r\n      \"AccountNumber\":\"\",\r\n      \"PartyAddress\":{\r\n        \"Line1\":\"\",\r\n        \"Line2\":\"\",\r\n        \"Line3\":\"\",\r\n        \"City\":\"\",\r\n        \"StateOrProvinceCode\":\"\",\r\n        \"PostCode\":\"\",\r\n        \"CountryCode\":\"\"\r\n      },\r\n      \"Contact\":{\r\n        \"Department\":\"\",\r\n        \"PersonName\":\"\",\r\n        \"Title\":\"\",\r\n        \"CompanyName\":\"\",\r\n        \"PhoneNumber1\":\"\",\r\n        \"PhoneNumber1Ext\":\"\",\r\n        \"PhoneNumber2\":\"\",\r\n        \"PhoneNumber2Ext\":\"\",\r\n        \"FaxNumber\":\"\",\r\n        \"CellPhone\":\"\",\r\n        \"EmailAddress\":\"\",\r\n        \"Type\":\"\"\r\n      }\r\n    },\r\n    \"Reference1\":\"1\",\r\n    \"Reference2\":\"\",\r\n    \"Reference3\":\"\",\r\n    \"ForeignHAWB\":\"\",\r\n    \"TransportType\":0,\r\n    \"ShippingDateTime\":\"\\/Date(1484085970000-0500)\\/\",\r\n    \"DueDate\":\"\\/Date(1484085970000-0500)\\/\",\r\n    \"PickupLocation\":\"\",\r\n    \"PickupGUID\":\"\",\r\n    \"Comments\":\"\",\r\n    \"AccountingInstrcutions\":\"\",\r\n    \"OperationsInstructions\":\"\",\r\n    \"Details\":{\r\n      \"Dimensions\":{\r\n        \"Length\":\"\",\r\n        \"Width\":\"\",\r\n        \"Height\":\"\",\r\n        \"Unit\":\"cm\"\r\n      },\r\n      \"ActualWeight\":5,\r\n      \"ProductGroup\":\"DOM\",\r\n      \"ProductType\":\"OND\",\r\n      \"PaymentType\":\"P\",\r\n      \"PaymentOptions\":\"\",\r\n      \"Services\":\"\",\r\n      \"NumberOfPieces\":1,\r\n      \"DescriptionOfGoods\":\"Books\",\r\n      \"GoodsOriginCountry\":\"JO\",\r\n      \"CashOnDeliveryAmount\":{\r\n        \"Value\":\"\",\r\n        \"CurrencyCode\":\"\"\r\n      },\r\n      \"InsuranceAmount\":{\r\n        \"Value\":0,\r\n        \"CurrencyCode\":\"\"\r\n      },\r\n      \"CollectAmount\":{\r\n        \"Value\":\"\",\r\n        \"CurrencyCode\":\"\"\r\n      },\r\n      \"CashAdditionalAmount\":{\r\n        \"Value\":0,\r\n        \"CurrencyCode\":\"\"\r\n      },\r\n      \"CashAdditionalAmountDescription\":\"\",\r\n      \"CustomsValueAmount\":{\r\n        \"Value\":0,\r\n        \"CurrencyCode\":\"\"\r\n      },\r\n      \"Items\": [{\r\n  \t\t\"PackageType\":\"Box\",\r\n  \t\t\"Quantity\":1,\r\n  \t\t\"Weight\":{\r\n  \t\t\t\"Value\":0.5,\r\n  \t\t\t\"Unit\":\"Kg\"\r\n  \t\t},\r\n  \t\t\"Comments\":\"Docs\",\r\n  \t\t\"Reference\":\"\"\r\n      }]\r\n    }\r\n  },\r\n  \"LabelInfo\": {\r\n\t\"ReportID\": 9201,\r\n\t\"ReportType\": \"URL\"\r\n  }\r\n\r\n\r\n}"
+		}
+	]
+}

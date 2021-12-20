@@ -1,0 +1,171 @@
+{
+  "ClientInfo": {
+    "UserName": "reem@reem.com",
+    "Password": "123456789",
+    "Version": "v1",
+    "AccountNumber": "20016",
+    "AccountPin": "331421",
+    "AccountEntity": "AMM",
+    "AccountCountryCode": "JO",
+    "Source": 24
+  },
+  "Transaction": {
+    "Reference1": "001",
+    "Reference2": "",
+    "Reference3": "",
+    "Reference4": "",
+    "Reference5": ""
+  },
+  "Shipment": {
+    "Shipper":{
+      "Reference1":"",
+      "Reference2":"",
+      "AccountNumber":"20016",
+      "PartyAddress":{
+        "Line1":"Test",
+        "Line2":"",
+        "Line3":"",
+        "City":"Amman",
+        "StateOrProvinceCode":"",
+        "PostCode":"",
+        "CountryCode":""
+      },
+      "Contact":{
+        "Department":"",
+        "PersonName":"aramex",
+        "Title":"",
+        "CompanyName":"aramex",
+        "PhoneNumber1":"009625515111",
+        "PhoneNumber1Ext":"",
+        "PhoneNumber2":"",
+        "PhoneNumber2Ext":"",
+        "FaxNumber":"",
+        "CellPhone":"9677956000200",
+        "EmailAddress":"test@test.com",
+        "Type":""
+      }
+    },
+    "Consignee":{
+      "Reference1":"",
+      "Reference2":"",
+      "AccountNumber":"",
+      "PartyAddress":{
+        "Line1":"Test",
+        "Line2":"",
+        "Line3":"",
+        "City":"Duabi",
+        "StateOrProvinceCode":"",
+        "PostCode":"",
+        "CountryCode":"AE"
+      },
+      "Contact":{
+        "Department":"",
+        "PersonName":"aramex",
+        "Title":"",
+        "CompanyName":"aramex",
+        "PhoneNumber1":"009625515111",
+        "PhoneNumber1Ext":"",
+        "PhoneNumber2":"",
+        "PhoneNumber2Ext":"",
+        "FaxNumber":"",
+        "CellPhone":"9627956000200",
+        "EmailAddress":"test@test.com",
+        "Type":""
+      }
+    },
+    "ThirdParty":{
+      "Reference1":"",
+      "Reference2":"",
+      "AccountNumber":"",
+      "PartyAddress":{
+        "Line1":"",
+        "Line2":"",
+        "Line3":"",
+        "City":"",
+        "StateOrProvinceCode":"",
+        "PostCode":"",
+        "CountryCode":""
+      },
+      "Contact":{
+        "Department":"",
+        "PersonName":"",
+        "Title":"",
+        "CompanyName":"",
+        "PhoneNumber1":"",
+        "PhoneNumber1Ext":"",
+        "PhoneNumber2":"",
+        "PhoneNumber2Ext":"",
+        "FaxNumber":"",
+        "CellPhone":"",
+        "EmailAddress":"",
+        "Type":""
+      }
+    },
+    "Reference1":"1",
+    "Reference2":"",
+    "Reference3":"",
+    "ForeignHAWB":"",
+    "TransportType":0,
+    "ShippingDateTime":"\/Date(1484085970000-0500)\/",
+    "DueDate":"\/Date(1484085970000-0500)\/",
+    "PickupLocation":"",
+    "PickupGUID":"",
+    "Comments":"",
+    "AccountingInstrcutions":"",
+    "OperationsInstructions":"",
+    "Details":{
+      "Dimensions":{
+        "Length":"",
+        "Width":"",
+        "Height":"",
+        "Unit":"cm"
+      },
+      "ActualWeight":5,
+      "ProductGroup":"DOM",
+      "ProductType":"OND",
+      "PaymentType":"P",
+      "PaymentOptions":"",
+      "Services":"",
+      "NumberOfPieces":1,
+      "DescriptionOfGoods":"Books",
+      "GoodsOriginCountry":"JO",
+      "CashOnDeliveryAmount":{
+        "Value":"",
+        "CurrencyCode":""
+      },
+      "InsuranceAmount":{
+        "Value":0,
+        "CurrencyCode":""
+      },
+      "CollectAmount":{
+        "Value":"",
+        "CurrencyCode":""
+      },
+      "CashAdditionalAmount":{
+        "Value":0,
+        "CurrencyCode":""
+      },
+      "CashAdditionalAmountDescription":"",
+      "CustomsValueAmount":{
+        "Value":0,
+        "CurrencyCode":""
+      },
+      "Items": {
+        "PackageType":"Box",
+        "Quantity":1,
+        "Weight":{
+          "Value":0.5,
+          "Unit":"Kg"
+        },
+        "Comments":"Docs",
+        "Reference":""
+      }
+    }
+  },
+  "LabelInfo": {
+    "ReportID": 9201,
+    "ReportType": "URL"
+  }
+
+
+}
